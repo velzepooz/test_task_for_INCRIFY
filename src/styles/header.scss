@@ -44,6 +44,14 @@
     }
   }
 
+  &__logo {
+    transition: transform 300ms ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   &__actions {
     display: flex;
     align-items: center;
@@ -75,7 +83,7 @@
     }
   }
 
-  &__language {
+  &__languages {
     font-family: MADE Outer Sans Bold, Arial, Helvetica, sans-serif;
 
     @media (max-width: 960px) {

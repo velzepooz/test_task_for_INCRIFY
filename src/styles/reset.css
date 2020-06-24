@@ -9,7 +9,7 @@ ul {
 }
 
 a {
-  transition: color 300ms;
+  transition: color 300ms ease;
   color: #f7f5f9;
 }
 

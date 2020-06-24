@@ -4,7 +4,7 @@
   height: 800px;
   justify-self: center;
 
-  font-family: MADE Outer Sans normal, Arial, Helvetica, sans-serif;
+  font-family: MADE Outer Sans Bold, Arial, Helvetica, sans-serif;
 
   font-size: 14px;
   line-height: 24px;
@@ -42,6 +42,8 @@
   }
 
   &__subtitle {
+    font-family: MADE Outer Sans normal, Arial, Helvetica, sans-serif;
+
     position: absolute;
 
     top: 95%;
