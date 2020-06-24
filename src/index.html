@@ -3,11 +3,121 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FE Template</title>
-    <link rel="stylesheet" href="style.scss">
-    <script type="module" src="main.js"></script>
+    <title>NoWayOut</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.scss">
+    <script
+      type="module"
+      src="main.js"
+      defer
+    >
+    </script>
   </head>
   <body>
-    <h1>FE Template</h1>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__burger"></div>
+        <ul class="header__list">
+          <li class="header__item">
+            <a
+              href="#"
+              class="header__link"
+              title="Go to rooms"
+            >
+              Rooms
+            </a>
+          </li>
+          <li class="header__item">
+            <a
+              href="#"
+              class="header__link"
+              title="Go to booking"
+            >
+              Booking
+            </a>
+          </li>
+          <li class="header__item">
+            <a
+              href="#"
+              class="header__link"
+              title="Go to contacts"
+            >
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="header__logo">
+        <img
+          src="./img/logo.svg"
+          class="header__img"
+          alt="NoWayOut logo"
+          title="NoWayOut logo"
+        >
+      </a>
+
+      <div class="header__actions">
+        <a
+          class="header__phone"
+          href="tel:+436606050000"
+          title="call us"
+        >
+          +43 660 605 0000
+        </a>
+        <div class="header__cart">
+          <img
+            src="./img/cart.svg"
+            title="Cart"
+            alt="Cart"
+          >
+        </div>
+        <div class="header__languages">
+          <a
+            href="#"
+            title="to lang"
+          >
+            DE
+          </a>
+          <a
+            href="#"
+            title="to lang">
+            EN
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="cards">
+      <div class="cards__card card">
+        <p class="card__title">Da Vinci</p>
+        <span class="card__subtitle">Mystery</span>
+      </div>
+      <div class="cards__card card">
+        <p class="card__title">Mission Belvedere</p>
+        <span class="card__subtitle">Action</span>
+      </div>
+      <div class="cards__card card card_sale">
+        <div class="card-tape tape">
+          <img
+            src="./img/Tape.png"
+            alt="sale"
+            title="sale"
+          >
+          <p class="tape__amount">20% OFF</p>
+          <span class="tape__cta">Limited-time Deal</span>
+          <span class="tape__counter">03:34:12</span>
+        </div>
+        <p class="card__title">School of magic</p>
+        <span class="card__subtitle">Adventure</span>
+      </div>
+      <div class="cards__card card">
+        <p class="card__title">The Unknown</p>
+        <span class="card__subtitle card__subtitle_horror">Horror with live actor</span>
+      </div>
+      <div class="cards__card card">
+        <p class="card__title">The Nun</p>
+        <span class="card__subtitle card__subtitle_horror">Horror with live actor</span>
+      </div>
+    </section>
   </body>
 </html>

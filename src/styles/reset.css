@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  transition: color 300ms;
+  color: #f7f5f9;
+}
+
+a:link {
+  color: #f7f5f9;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f7f5f9;
+}
+
+a:visited {
+  color: #f7f5f9;
+}
+
+a:hover {
+  color: #9fadc2;
+}

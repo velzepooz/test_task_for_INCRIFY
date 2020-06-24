@@ -1,2 +1,4 @@
 dist
 .cache
+src/img
+src/fonts

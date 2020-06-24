@@ -1,0 +1,17 @@
+@import "fonts";
+@import "header";
+@import "cards";
+@import "tape";
+@import "card";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/background.png");
+  background-color: black;
+
+  font-family: MADE Outer Sans Bold, Arial, Helvetica, sans-serif;
+  color: #f7f5f9;
+}
