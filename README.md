@@ -5,6 +5,7 @@ Layout quest-room website
 ## Used technologies
 
 * HTML
+* CSS
 * SASS/SCSS
 * Javascript
 
