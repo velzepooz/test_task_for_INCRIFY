@@ -1,8 +1,17 @@
-# Template for FE projects
+# Test task for INCRIFY
 
-* ESlint
-* Stylelint
-* Linthtml
-* SCSS
-* Tests
+Layout quest-room website
 
+## Used technologies
+
+* HTML
+* SASS/SCSS
+* Javascript
+
+## Methodology 
+
+* BEM
+
+### DEMO
+[DEMO LINK](https://velzepooz.github.io/test_task_for_INCRIFY/)
+[Figma](https://www.figma.com/file/XuVgVTopfzvSGBw1JK8pA5/nowayout-test?node-id=0%3A1)

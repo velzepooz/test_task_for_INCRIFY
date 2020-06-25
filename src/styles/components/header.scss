@@ -105,4 +105,12 @@
       display: none;
     }
   }
+
+  &__language {
+    color: #9fadc2 !important;
+
+    &_active {
+      color: $main-font-color !important;
+    }
+  }
 }
