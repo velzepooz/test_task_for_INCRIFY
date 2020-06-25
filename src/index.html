@@ -6,6 +6,7 @@
     <title>NoWayOut</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="icon" href="img/favicon.svg">
     <script
       type="module"
       src="main.js"
@@ -15,8 +16,61 @@
   </head>
   <body>
     <header class="header">
+      <nav class="header__mob-nav mob-nav">
+        <div class="mob-nav__top">
+          <button class="mob-nav__close"></button>
+          <a href="#" class="mob-nav__logo">
+            <img
+              src="./img/logo.svg"
+              class="header__img"
+              alt="NoWayOut logo"
+              title="NoWayOut logo"
+            >
+          </a>
+        </div>
+        <ul class="mob-nav__list">
+          <li class="mob-nav__item">
+            <a
+              href="#"
+              class="mob-nav__link"
+              title="Go to rooms"
+            >
+              Rooms
+            </a>
+          </li>
+          <li class="mob-nav__item">
+            <a
+              href="#"
+              class="mob-nav__link"
+              title="Go to booking"
+            >
+              Booking
+            </a>
+          </li>
+          <li class="mob-nav__item">
+            <a
+              href="#"
+              class="mob-nav__link"
+              title="Go to contacts"
+            >
+              Contacts
+            </a>
+          </li>
+        </ul>
+
+        <div class="mob-nav__actions">
+          <a
+            class="header__phone"
+            href="tel:+436606050000"
+            title="call us"
+          >
+            +43 660 605 0000
+          </a>
+        </div>
+      </nav>
+
       <nav class="header__nav">
-        <div class="header__burger"></div>
+        <button class="header__burger"></button>
         <ul class="header__list">
           <li class="header__item">
             <a

@@ -1,8 +1,10 @@
 @import "fonts";
-@import "header";
-@import "cards";
-@import "tape";
-@import "card";
+@import "variables";
+@import "./components/header.scss";
+@import "./components/mob-nav";
+@import "./components/cards";
+@import "./components/tape";
+@import "./components/card";
 
 * {
   box-sizing: border-box;
@@ -10,8 +12,10 @@
 
 body {
   background-image: url("../img/background.png");
-  background-color: black;
+  background-color: $background-color;
 
   font-family: MADE Outer Sans Bold, Arial, Helvetica, sans-serif;
-  color: #f7f5f9;
+  color: $main-font-color;
+
+  scroll-behavior: smooth;
 }
