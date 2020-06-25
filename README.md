@@ -14,5 +14,10 @@ Layout quest-room website
 * BEM
 
 ### DEMO
-[DEMO LINK](https://velzepooz.github.io/test_task_for_INCRIFY/)
-[Figma](https://www.figma.com/file/XuVgVTopfzvSGBw1JK8pA5/nowayout-test?node-id=0%3A1)
+- [DEMO LINK](https://velzepooz.github.io/test_task_for_INCRIFY/)
+- [Figma](https://www.figma.com/file/XuVgVTopfzvSGBw1JK8pA5/nowayout-test?node-id=0%3A1)
+
+### Run
+
+- npm run - starts project on localhost
+- npm run build - production build
